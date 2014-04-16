@@ -2,15 +2,15 @@
 
 import random
 
-a = raw_input("How many dice")
-a = int(a)
+NumberOfDice = raw_input("How many dice")
+NumberOfDice = int(NumberOfDice)
 
-l = raw_input("How many sides to your dice?")
-l = int(l)
+NumberOfSides = raw_input("How many sides to your dice?")
+NumberOfSides = int(NumberOfSides)
 
-dice = random.randint(1,l)
+dice = random.randint(1,NumberOfSides)
 
+for Arthur in range(0,NumberOfDice):
+    print "The Result is", random.randint(0,NumberOfSides)
+    dice = random.randint(1,NumberOfSides)
 
-
-
-print dice
