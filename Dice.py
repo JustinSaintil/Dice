@@ -11,10 +11,11 @@ for x in range(0, NumberOfDice):
 	while NumberOfSides <= 1:
 		NumberOfSides= raw_input("Please input a number that is larger than one: ")
 		NumberOfSides= int(NumberOfSides)
+	print "The Result is", random.randint(1,NumberOfSides)
+	dice = random.randint(1,NumberOfSides)
+
 		 
 
 
 
-for x in range(0,NumberOfDice):
-    print "The Result is", random.randint(1,NumberOfSides)
-    dice = random.randint(1,NumberOfSides)
+
